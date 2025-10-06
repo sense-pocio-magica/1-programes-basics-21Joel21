@@ -1,23 +1,19 @@
-﻿namespace exercici1;
+﻿namespace exercici2;
 
-/* Escriviu un programa que demani el nom i el cognom de l’usuari i que el presenti com en James Bond
-
-Entra el nom: Pere
-Entra el cognom: González
-
-Em dic González, Pere González
-
-Entra el nom: Joan
-Entra el cognom: Pi
-
-Em dic Pi, Joan Pi 
-
-*/ 
+/* Declara variables per emmagatzemar l’adreça d’una persona: 
+carrer, número, codi postal i població. Imprimeix el resultat 
+en una sola línia */
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Escriu el teu nom");
+        string nom = Console.ReadLine();
+
+        Console.WriteLine("Escriu el teu cognom");
+        string cognom = Console.ReadLine();
+
+        Console.WriteLine($"Em dic {cognom}, {nom} {cognom} ");
     }
 }

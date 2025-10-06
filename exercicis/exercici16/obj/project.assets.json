@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Coral Planagumà\\.nuget\\packages\\": {}
+    "C:\\Users\\jsori\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici16\\exercici16.csproj",
+      "projectUniqueName": "C:\\Users\\jsori\\OneDrive\\Escritorio\\Programación\\1-programes-basics-21Joel21\\exercicis\\exercici16\\exercici16.csproj",
       "projectName": "exercici16",
-      "projectPath": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici16\\exercici16.csproj",
-      "packagesPath": "C:\\Users\\Coral Planagumà\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici16\\obj\\",
+      "projectPath": "C:\\Users\\jsori\\OneDrive\\Escritorio\\Programación\\1-programes-basics-21Joel21\\exercicis\\exercici16\\exercici16.csproj",
+      "packagesPath": "C:\\Users\\jsori\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jsori\\OneDrive\\Escritorio\\Programación\\1-programes-basics-21Joel21\\exercicis\\exercici16\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Coral Planagumà\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jsori\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

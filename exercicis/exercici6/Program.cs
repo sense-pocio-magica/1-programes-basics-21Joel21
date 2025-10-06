@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        int costat = 6;
+
+        var resultat = costat + costat + costat + costat;
+
+        Console.WriteLine($"El perimetro del cuadrado de 6 cm de lado es {resultat} cm");
     }
 }

@@ -27,6 +27,27 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime un numero entero");
+        int p_num = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Dime otro numero entero");
+        int s_num = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("La suma, resta, multiplicación y divsión de los numeros enviados, su resultado es el siguiente");
+
+        int r_suma = p_num + s_num;
+        int r_resta = p_num - s_num;
+        int r_multi = p_num * s_num;
+        int r_div = p_num / s_num;
+        int r_resi = p_num % s_num;
+
+
+        Console.WriteLine($"{p_num} + {s_num} = {r_suma}");
+        Console.WriteLine($"{p_num} - {s_num} = {r_resta}");
+        Console.WriteLine($"{p_num} * {s_num} = {r_multi}");
+        Console.WriteLine($"{p_num} / {s_num} = {r_div} y sobre {r_resi}" );
+
+    
+
     }
 }

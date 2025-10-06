@@ -6,6 +6,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string nombre = "joel";
+        string apellido = "soriano";
+
+        string n_m = char.ToUpper(nombre[0]) + nombre.Substring(1);
+        string a_m = char.ToUpper(apellido[0]) + apellido.Substring(1);
+
+        Console.WriteLine($"Tu nombre completo es {n_m} {a_m}");
     }
 }
