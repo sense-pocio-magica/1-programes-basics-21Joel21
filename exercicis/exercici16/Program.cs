@@ -16,6 +16,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Nota de examen :");
+        double n_exmanen = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Nota de Practicas");
+        double n_practicas = Convert.ToInt32(Console.ReadLine());
+
+        double media = (0.7 * n_exmanen) + (0.3 * n_practicas);
+
+        double n_final = Math.Round(media, MidpointRounding.AwayFromZero);
+
+        Console.WriteLine($"La nota final es {media} o sigui un {n_final}" );
     }
 }

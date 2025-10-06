@@ -8,6 +8,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime tu nombre y el año el cual naciste");
+
+        var nombre = Console.ReadLine();
+
+        int año_nacimietno = Convert.ToInt32(Console.ReadLine());
+
+        int año_actual = 2025;
+
+        int edad_actual = año_actual - año_nacimietno;
+
+        Console.WriteLine($"Hola {nombre}! Ja tienes {edad_actual} años ?");
     }
 }

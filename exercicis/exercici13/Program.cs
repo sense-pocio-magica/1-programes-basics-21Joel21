@@ -17,6 +17,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Entra una fehca sin formatear de 8 digitos");
+        string fecha = Console.ReadLine();
+
+        string dia = "";
+        string mes = "";
+        string any = "";
+
+        if (fecha.Length != 8)
+        {
+            Console.WriteLine("Los numeros introducidos superan o no los 8 caracteres");
+        }
+        else
+        {
+            dia = fecha.Substring(0, 2);
+            mes = fecha.Substring(2, 2);
+            any = fecha.Substring(4, 4);
+
+        }
+
+        Console.WriteLine($"La fecha es {dia}/{mes}/{any}");
     }
 }

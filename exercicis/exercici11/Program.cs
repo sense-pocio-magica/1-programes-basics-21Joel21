@@ -5,6 +5,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string usuario = "Rex";
+        string dominio = "@gmail.com";
+
+        var correo_electronico = usuario + dominio;
+
+        Console.WriteLine($"El correo sera --> {correo_electronico}");
+        
     }
 }

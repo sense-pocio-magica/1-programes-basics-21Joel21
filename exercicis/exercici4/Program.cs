@@ -10,7 +10,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
+        Console.WriteLine("Bambas negras tiene un precio de 50€");
+
+        double euros = 50;
+        double pesetas = 166.386;
+        double resultado = euros * pesetas;
+        Console.WriteLine($"El precio en pesetas de este producto seria {resultado}");
+
     }
 }

@@ -15,6 +15,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hola miembro de la secta, digame su numero decimal con la coma ");
+
+        string e_d = Console.ReadLine();
+
+        int posicion_coma = e_d.IndexOf(",");
+
+        if (posicion_coma != -1)
+        {
+            string resultado_coma = e_d.Substring(posicion_coma);
+
+            Console.WriteLine($"numero lleig : {e_d}");
+            Console.WriteLine($"numero marevellos :0 {resultado_coma}");
+
+        }
+        else
+        {
+            Console.WriteLine("tu numero no contiene decimales");
+        }
+
     }
 }

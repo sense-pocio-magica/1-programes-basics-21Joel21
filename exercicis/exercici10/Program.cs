@@ -8,6 +8,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime tu nombre y año de nacimiento para crearte una contraseña");
+
+        string nombre = Console.ReadLine();
+        string año_nacimiento = Console.ReadLine();
+        var contraseña = nombre + año_nacimiento;
+
+        Console.WriteLine($"Tu contraseña sera {contraseña}");
     }
 }

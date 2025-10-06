@@ -7,6 +7,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime un valor en metros");
+        int metros = Convert.ToInt32(Console.ReadLine());
+
+        
+        double resultat_final = metros * 3.28084;
+
+        Console.WriteLine($"El resultado de {metros} m  a pies es de {resultat_final} pies");
+
     }
 }
